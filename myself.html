@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>myself</title>
+    <link rel = "icon" href = "IMG_20200216_190959_445.jpg">
+  </head>
+  <style>
+  .border-box {
+    box-sizing: border-box;
+    width: 223px;
+    height: 280px;
+    width: 300px;
+    height: 350px;
+    float: left;
+    padding: 10px;
+    border: 10px;
+    margin: 20px;
+    background: rgba(76, 80, 175, 0.2);
+    align-items: center;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+  }
+  .details{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(76, 80, 175, 0.4);
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .4);
+  }
+  .education{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(76, 80, 175, 0.6);
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .6);
+  }
+  .hobbies{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(76, 80, 175, 0.8);
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .8);
+  }
+  .favourite_subjects{
+
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(175, 40, 56, 0.2);
+    box-shadow: 8px 8px 2px 1px rgba(255,0,0, .2);
+  }
+  .favourite_food{
+
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(175, 40, 56, 0.4);
+    box-shadow: 8px 8px 2px 1px rgba(255,0,0, .4);
+  }
+  .favourite_netflix{
+
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(175, 40, 56, 0.6);
+    box-shadow: 8px 8px 2px 1px rgba(255,0,0, .6);
+  }
+  .favourite_languages{
+
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(175, 40, 56, 0.8);
+    box-shadow: 8px 8px 2px 1px rgba(255,0,0, .8);
+  }
+  .favourite_songs{
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(40, 175, 56, 0.2);
+    box-shadow: 8px 8px 2px 1px rgba(0,255,0, .2);
+  }
+  .favourite_books{
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(40, 175, 56, 0.4);
+    box-shadow: 8px 8px 2px 1px rgba(0,255,0 .4);
+  }
+  .favourite_places{
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    background: rgba(40, 175, 56, 0.6);
+    box-shadow: 8px 8px 2px 1px rgba(0,255,0, .6);
+  }
+  .favourite_domains{
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+  background: rgba(40, 175, 56, 0.8);
+    box-shadow: 8px 8px 2px 1px rgba(0,255,0, .8);
+  }
+  .lucifer_image{
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 600px;
+    height: 450px;
+  background: rgba(100, 100, 110, 0.2);
+    box-shadow: 8px 8px 2px 1px rgba(100,100,110, .8);
+  }
+  #lucifer{
+    width: 250px;
+    height: : 350px;
+    box-sizing: border-box;
+    float: left;
+  }
+  #lucifer_desc{
+    padding: 5px;
+    margin: 8px;
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    display: none;
+  }
+  div.lucifer_image:hover #lucifer_desc{
+    display: block;
+  }
+  div.border-box:hover{
+    border: 5px solid black;
+  }
+  div.details:hover{
+    border: 5px solid black;
+  }
+  div.education:hover{
+    border: 5px solid black;
+  }
+  div.hobbies:hover{
+    border: 5px solid black;
+  }
+  div.favourite_subjects:hover{
+    border: 5px solid black;
+  }
+  div.favourite_food:hover{
+    border: 5px solid black;
+  }
+  div.favourite_netflix:hover{
+    border: 5px solid black;
+  }
+  div.favourite_languages:hover{
+    border: 5px solid black;
+  }
+  div.favourite_songs:hover{
+    border: 5px solid black;
+  }
+  div.favourite_books:hover{
+    border: 5px solid black;
+  }
+  div.favourite_places:hover{
+    border: 5px solid black;
+  }
+  div.favourite_domains:hover{
+    border: 5px solid black;
+  }
+  </style>
+  <body>
+    <div class="border-box">
+      <h2><center>MY PIC</center></h2>
+      <img id="my_image" src="10.PNG" alt="pic1">
+
+    </div>
+
+    <div class="details">
+      <h2><center>PERSONAL DETAILS</center></h2>
+      <h3 id="my_name">NAME: Anandteertha Rao</h3>
+      <h3 id="my_class">CLASS: TE CE D1</h3>
+      <h3 id="my_dob">DATE OF BIRTH: 14-02-2000</h3>
+    </div>
+    <div class="education">
+      <h2><center>EDUACTION</center></h2>
+      <h3 id="tenth_score">Tenth standard score: 90.2%</h3>
+      <h3 id="twelth_score">Twelth Tandard score: 83%</h3>
+      <h3 id="cgpa_engg">Engineering CGPA: 9.335</h3>
+    </div>
+    <div class="hobbies">
+      <h3 id="hobby1"><center><h2>HOBBIES</h2></center>
+        <ul>
+          <li>Writing</li><br>
+          <li>Cooking</li><br>
+          <li>Eating</li><br>
+          <li>Coding</li><br>
+          <li>Reading</li>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_subjects">
+      <h3 id="fav_subs"><center><h2>FAVOURITE SUBJECTS</h2></center>
+        <ul>
+          <li>Operating Systems</li><br>
+          <li>Computer Organisation and Architecture</li><br>
+          <li>Data Structures</li><br>
+          <li>Discrete Mathematics</li><br>
+        </ol>
+      </h3>
+    </div>
+    <div class="favourite_food">
+      <h3 id="fav_foods"><center><h2>FAVOURITE FOODS</h2></center>
+        <ul>
+          <li>Cheese Pizza</li><br>
+          <li>Mc.MahaRaja Burger</li><br>
+          <li>Paneer kofta with cheese paratha</li><br>
+          <li>Veg Crispy</li><br>
+          <li>Tea</li>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_netflix">
+      <h3 id="fav_netflix"><center><h2>FAVOURITE NETFLIX SHOWS<h2></center>
+        <ul>
+          <li>Lucifer</li><br>
+          <li>Peaky Blinders</li><br>
+          <li>That 70s show</li><br>
+          <li>cobra Kai</li><br>
+          <li>Witcher</li>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_languages">
+      <h3 id="fav_langs"><center><h2>FAVOURITE LANGUAGES</h2></center>
+        <ul>
+          <li>C-Programming language</li><br>
+          <li>Java</li><br>
+          <li>python</li><br>
+          <li>solidity</li><br>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_songs">
+      <h3 id="fav_langs"><center><h2>FAVOURITE SONGS</h2></center>
+        <ul>
+          <li>The Night We Met</li><br>
+          <li>Get you the moon</li><br>
+          <li>Summer Feelings</li><br>
+          <li>Lucid Dreams</li><br>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_books">
+      <h3 id="fav_langs"><center><h2>FAVOURITE BOOKS</h2></center>
+        <ul>
+          <li>DEATH ON THE NILE</li><br>
+          <li>MARVEL <comic sans>COMIC BOOKS</comic sans></li><br>
+          <li>DC COMIC BOOKS</li><br>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_places">
+      <h3 id="fav_langs"><center><h2>FAVOURITE PLACES</h2></center>
+        <ul>
+          <li>Mumbai</li><br>
+          <li>Ooty</li><br>
+          <li>Coorg</li><br>
+          <li>Munnar</li><br>
+          <li>Puri</li>
+        </ul>
+      </h3>
+    </div>
+    <div class="favourite_domains">
+      <h3 id="fav_langs"><center><h2>FAVOURITE DOMAINS</h2></center>
+        <ul>
+          <li>BlockChain</li><br>
+          <li>Artificial Intelligence</li><br>
+          <li>Web Development</li><br>
+          <li>App Development</li><br>
+          <li>Software Design Thinking</li>
+        </ul>
+      </h3>
+    </div>
+    <div class="lucifer_image">
+      <center><h1>LUCIFER</h1></center>
+      <h3 id="lucifer">
+        <left><img src="lucifer.png" alt="lucifer"></left>
+      </h3>
+      <div id="lucifer_desc">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <p><big>Lucifer
+            2016 | 16+ | 5 Seasons | TV Shows
+            Bored with being the Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective.
+            <br>Starring:Tom Ellis,Lauren German,Kevin Alejandro
+          </big>
+          </p>
+      </div>
+    </div>
+  </body>
+</html>
